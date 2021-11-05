@@ -1,0 +1,109 @@
+@import "http://fonts.googleapis.com/css?family=Fauna+One|Muli";
+#mainform {
+/*	width:960px;*/ 
+	width:75%;
+	margin:10px auto;
+	padding:10px;
+	font-family:'Fauna One',serif;
+}
+h3 {
+	margin-top:0;
+	color:#fff;
+	background-color:#3C599B;
+	text-align:center;
+	width:70%;
+	height:35px;
+	padding-top:10px
+}
+
+#mainform table{
+	padding:5px 30px;
+	width:100%;
+	list-style-type:none; 
+	list-style-position:outside;
+}
+#mainform table td:nth-child(1) span{
+	color: red;
+}
+#mainform table td:nth-child(2){
+	width:45%;
+}
+#mainform table td:nth-child(3){
+	width: 30%;
+    padding-left: 1%;
+}
+.warning{
+	font-size: 10px;
+	font-weight: bold;
+}
+.red{
+	color: red;
+}
+.green{
+	color: green;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="number"]{
+	width:100%;
+	height:30px;
+	margin:0px 0px 15px 0px;
+	border-radius:3px;
+	padding:2px;
+	box-shadow:0 1px 1px 0 #123456;
+	
+	-moz-transition: all .25s; 
+    -webkit-transition: all .25s; 
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+#address{
+	margin-bottom:0px !important;
+}
+textarea{
+	width:100%;
+}
+
+input:focus{
+	background:#eee;
+}
+select {
+	width:102%;
+	height:30px;
+	margin:10px 0px;
+	border-radius:3px;
+	padding:2px;
+	box-shadow:0 1px 1px 0 #123456;
+	font-family:'Fauna One',serif;
+	font-size:14px;
+	color:#3C599B;
+}
+.g-recaptcha{
+	padding: 10px 0px;
+}
+#btn_submit{
+	background-color:#3C599B;
+	border:1px solid #FF9;
+	font-family:'Fauna One',serif;
+	font-weight:700;
+	font-size:18px;
+	color:#fff;
+	padding: 5px;
+    width: 60%;
+	height:40px;
+	float:right;
+	
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;	
+}
+#btn_submit:hover{
+	background-color:#ffffff;
+	color:#3C599B;
+	cursor:pointer;
+	border: 1px solid #3C599B;
+}
